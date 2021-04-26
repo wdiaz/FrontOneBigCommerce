@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <h1>Catalog</h1>
+      <h1></h1>
       <h2>{{legend}}</h2>
     </div>
     <div class="row">
@@ -9,7 +9,7 @@
           v-for="product in products"
           :key="products['id']"
       >
-        <p>{{product.sku}} - {{product.name}}</p><br/>
+        <p>{{product.sku}}</p><br/>
       </div>
     </div>
     </div>
@@ -29,9 +29,10 @@ export default {
     };
   },
   async mounted() {
-    const response = await axios.get('http://localhost:8081/products/catalog');
-    this.products = response.data;
-    console.log(this.products);
+    const response = await axios.get('http://localhost:8081/products');
+    this.products = response.data['_embedded'].products;
+
+
   },
 }
 </script>
