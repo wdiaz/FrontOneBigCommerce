@@ -1,0 +1,46 @@
+{
+  "name": "onebigcommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@symfony/webpack-encore": "^1.1.2",
+    "bootstrap": "^4.6.0",
+    "core-js": "^3.9.1",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "regenerator-runtime": "^0.13.7",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "webpack-notifier": "^1.13.0"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "file-loader": "^6.0.0",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress",
+    "lint": "node_modules/.bin/eslint assets/** --ignore-pattern *.scss --ignore-pattern *.gif --ignore-pattern *.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdiaz/FrontOneBigCommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdiaz/FrontOneBigCommerce/issues"
+  },
+  "homepage": "https://github.com/wdiaz/FrontOneBigCommerce#readme"
+}
