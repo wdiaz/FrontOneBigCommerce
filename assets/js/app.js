@@ -7,3 +7,10 @@
 
 // any CSS you import will output into a single css file (app.css in this case)
 import '../scss/app.scss';
+var $ = require('jquery');
+window.$ = window.jQuery = global.$ = global.jQuery = $;
+import 'bootstrap';
+import 'mixitup'
+import  './main';
+import 'slicknav/jquery.slicknav';
+import 'owl.carousel';
