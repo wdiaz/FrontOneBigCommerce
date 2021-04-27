@@ -22,9 +22,12 @@
     "webpack-notifier": "^1.13.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "add": "^2.0.6",
     "axios": "^0.21.1",
     "file-loader": "^6.0.0",
-    "vue-template-compiler": "^2.6.12"
+    "vue-template-compiler": "^2.6.12",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "dev-server": "encore dev-server",
