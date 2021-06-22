@@ -1,0 +1,7 @@
+./bin/console server:start -d
+./bin/console doctrine:migrations:migrate
+./bin/console doctrine:fixtures:load
+
+yarn install
+yarn watch
+
