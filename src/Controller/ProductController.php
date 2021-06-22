@@ -46,9 +46,6 @@ class ProductController extends AbstractController
         $collection = new ArrayCollection();
         foreach ($products['_embedded']['products'] as $value) {
             $item = $serializer->deserialize(json_encode($value), Product::class, 'json');
-            dump($item);
-
-            //$collection->add($product);*/
         }
 
         return $this->render('product/catalog.html.twig');
