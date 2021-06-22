@@ -1,4 +1,4 @@
-
+## I am leaving .env because configuration is local and I am fully aware of it.
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -8,6 +8,7 @@
 /var/
 /vendor/
 /node_modules
+.idea
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
