@@ -1,4 +1,4 @@
-./bin/console server:start -d
+symfony server:start -d
 ./bin/console doctrine:migrations:migrate
 ./bin/console doctrine:fixtures:load
 
