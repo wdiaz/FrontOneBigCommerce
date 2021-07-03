@@ -26,7 +26,7 @@ class ProductController extends AbstractController
     }
 
     /**
-     * @Route("/", name="app_homepage")
+     * @Route("/products", name="app_homepage")
      *
      * @return Response
      */
