@@ -5,3 +5,4 @@ symfony server:start -d
 yarn install
 yarn watch
 
+note: the doctrine part is a hack. I find it easier handle the migrations part in symfony thank spring. A third repository might be needed but I don't have time for that rigth now.
